@@ -2,6 +2,7 @@ const { MOVE_UP_KEY, MOVE_DOWN_KEY, MOVE_RIGHT_KEY, MOVE_LEFT_KEY } = require(".
 
 let connection;
 
+// set input with connection
 const setupInput = function(conn) {
   connection = conn;
   const stdin = process.stdin;
@@ -12,6 +13,7 @@ const setupInput = function(conn) {
   return stdin;
 };
 
+// move snake with WASD and add some msgs
 const handleUserInput = function(key) {
   if (key === '\u0003') {
     process.exit();

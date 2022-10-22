@@ -8,8 +8,9 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Welcomr message"](welcome_message.png)
-!["Snake is Eating"](snake.png)
+!["Welcomr message"](assets/welcome_message.png)
+!["Snake is Eating"](assets/snake.png)
+!["Snake is Eating"](assets/client_console.png)
 
 
 ## Getting Started
